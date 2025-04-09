@@ -1,0 +1,601 @@
+2025/03/21 14:27:56 main.go:62: shutting down the server: listen tcp :8080: bind: address already in use
+2025/03/21 14:28:10 main.go:79: Server gracefully stopped
+2025/03/21 14:38:38 main.go:75: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T14:39:12+08:00 127.0.0.1 GET /swagger/index.html 200 1.244333ms
+2025-03-21T14:39:12+08:00 127.0.0.1 GET /swagger/swagger-ui.css 200 907.916µs
+2025-03-21T14:39:12+08:00 127.0.0.1 GET /swagger/swagger-ui-standalone-preset.js 200 939µs
+2025-03-21T14:39:12+08:00 127.0.0.1 GET /swagger/swagger-ui-bundle.js 200 2.275583ms
+2025-03-21T14:39:12+08:00 127.0.0.1 GET /swagger/favicon-32x32.png 200 32.666µs
+2025-03-21T14:39:12+08:00 127.0.0.1 GET /swagger/doc.json 200 396.208µs
+2025/03/21 14:39:15 main.go:87: Handling request to /
+2025-03-21T14:39:15+08:00 127.0.0.1 GET / 200 120.208µs
+2025-03-21T14:39:15+08:00 127.0.0.1 GET /favicon.ico 404 76.916µs
+2025-03-21T14:39:19+08:00 127.0.0.1 GET /swagger/ 301 66.25µs
+2025-03-21T14:39:19+08:00 127.0.0.1 GET /swagger//index.html 200 292.625µs
+2025-03-21T14:39:19+08:00 127.0.0.1 GET /swagger//swagger-ui.css 200 380.666µs
+2025-03-21T14:39:19+08:00 127.0.0.1 GET /swagger//swagger-ui-standalone-preset.js 200 310.042µs
+2025-03-21T14:39:19+08:00 127.0.0.1 GET /swagger//swagger-ui-bundle.js 200 4.686208ms
+2025-03-21T14:39:19+08:00 127.0.0.1 GET /swagger//favicon-32x32.png 200 105.166µs
+2025-03-21T14:39:19+08:00 127.0.0.1 GET /swagger//doc.json 200 257.875µs
+2025-03-21T14:39:31+08:00 127.0.0.1 GET /swagger//doc.yaml 200 1.462417ms
+2025-03-21T14:39:32+08:00 127.0.0.1 GET /swagger//doc.json 200 289.792µs
+2025-03-21T14:43:33+08:00 127.0.0.1 GET /swagger//index.html?urls.primaryName=doc.json 404 295µs
+2025/03/21 14:43:40 main.go:75: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T14:43:41+08:00 127.0.0.1 GET /swagger//index.html?urls.primaryName=doc.json 404 437µs
+2025-03-21T14:43:45+08:00 127.0.0.1 GET /swagger//index.html 200 547.459µs
+2025-03-21T14:43:45+08:00 127.0.0.1 GET /swagger//swagger-ui.css 200 384.709µs
+2025-03-21T14:43:45+08:00 127.0.0.1 GET /swagger//swagger-ui-bundle.js 200 2.067708ms
+2025-03-21T14:43:45+08:00 127.0.0.1 GET /swagger//swagger-ui-standalone-preset.js 200 718.125µs
+2025-03-21T14:43:45+08:00 127.0.0.1 GET /swagger//doc.json 200 164.25µs
+2025-03-21T14:48:14+08:00 127.0.0.1 GET /swagger//index.html 200 295.125µs
+2025-03-21T14:48:14+08:00 127.0.0.1 GET /swagger//swagger-ui.css 200 335.125µs
+2025-03-21T14:48:14+08:00 127.0.0.1 GET /swagger//swagger-ui-bundle.js 200 2.182459ms
+2025-03-21T14:48:14+08:00 127.0.0.1 GET /swagger//swagger-ui-standalone-preset.js 200 679.792µs
+2025-03-21T14:48:14+08:00 127.0.0.1 GET /swagger//doc.json 200 555.25µs
+2025/03/21 14:48:18 main.go:75: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T14:48:22+08:00 127.0.0.1 GET /swagger//index.html 200 906.167µs
+2025-03-21T14:48:22+08:00 127.0.0.1 GET /swagger//swagger-ui-standalone-preset.js 200 593.459µs
+2025-03-21T14:48:22+08:00 127.0.0.1 GET /swagger//swagger-ui-bundle.js 200 2.018625ms
+2025-03-21T14:48:22+08:00 127.0.0.1 GET /swagger//swagger-ui.css 200 297.75µs
+2025-03-21T14:48:22+08:00 127.0.0.1 GET /swagger//doc.json 200 186.084µs
+2025/03/21 14:48:26 main.go:87: Handling request to /
+2025-03-21T14:48:26+08:00 127.0.0.1 GET / 200 180.208µs
+2025/03/21 14:48:33 main.go:87: Handling request to /
+2025-03-21T14:48:33+08:00 127.0.0.1 GET / 200 485.541µs
+2025/03/21 14:48:33 main.go:87: Handling request to /
+2025-03-21T14:48:33+08:00 127.0.0.1 GET / 200 137.625µs
+2025/03/21 14:48:33 main.go:87: Handling request to /
+2025-03-21T14:48:33+08:00 127.0.0.1 GET / 200 242.209µs
+2025/03/21 14:48:37 main.go:99: Handling health check request
+2025-03-21T14:48:37+08:00 127.0.0.1 GET /health 200 245.917µs
+2025/03/21 14:53:11 main.go:75: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T14:53:32+08:00 127.0.0.1 GET /reference 200 4.716792ms
+2025/03/21 14:53:39 main.go:87: Handling request to /
+2025-03-21T14:53:39+08:00 127.0.0.1 GET / 200 167.875µs
+2025/03/21 14:53:41 main.go:87: Handling request to /
+2025-03-21T14:53:41+08:00 127.0.0.1 GET / 200 114.959µs
+2025/03/21 14:53:51 main.go:87: Handling request to /
+2025-03-21T14:53:51+08:00 127.0.0.1 GET / 200 115.542µs
+2025/03/21 14:54:06 main.go:87: Handling request to /
+2025-03-21T14:54:06+08:00 127.0.0.1 GET / 200 190.667µs
+2025-03-21T14:54:16+08:00 127.0.0.1 GET /reference 200 1.663209ms
+2025-03-21T15:00:06+08:00 127.0.0.1 GET /reference 200 2.82325ms
+2025/03/21 15:04:59 main.go:75: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T15:05:00+08:00 127.0.0.1 GET /reference 200 2.774416ms
+2025-03-21T15:34:58+08:00 127.0.0.1 GET /reference 200 3.156792ms
+2025/03/21 16:17:49 main.go:64: Failed to connect to database: failed to ping database: failed to connect to `user=postgres database=postgres`:
+	[2406:da18:243:740f:2302:2c77:521a:a606]:5432 (db.vgvsruwdgwejnfwionnb.supabase.co): dial error: dial tcp [2406:da18:243:740f:2302:2c77:521a:a606]:5432: connect: no route to host
+	[2406:da18:243:740f:2302:2c77:521a:a606]:5432 (db.vgvsruwdgwejnfwionnb.supabase.co): dial error: dial tcp [2406:da18:243:740f:2302:2c77:521a:a606]:5432: connect: no route to host
+2025/03/21 16:19:47 main.go:73: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:19:47 main.go:105: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:19:47 main.go:132: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:20:00+08:00 127.0.0.1 GET /reference 200 6.252125ms
+2025-03-21T16:20:02+08:00 127.0.0.1 GET /reference 200 2.431417ms
+2025-03-21T16:20:45+08:00 127.0.0.1 GET /reference 200 2.854792ms
+2025/03/21 16:21:08 main.go:73: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:21:08 main.go:105: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:21:08 main.go:132: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:21:11+08:00 127.0.0.1 GET /reference 200 3.401333ms
+2025-03-21T16:21:13+08:00 127.0.0.1 GET /reference 200 1.609375ms
+2025/03/21 16:21:43 main.go:73: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:21:43 main.go:105: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:21:43 main.go:132: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:21:49+08:00 127.0.0.1 GET /reference 200 3.721958ms
+2025/03/21 16:23:27 main.go:73: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:23:27 main.go:105: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:23:27 main.go:132: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:23:29+08:00 127.0.0.1 GET /reference 200 6.865292ms
+2025/03/21 16:26:19 main.go:73: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:26:19 main.go:105: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:26:19 main.go:132: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:26:21+08:00 127.0.0.1 GET /reference 200 2.597583ms
+2025-03-21T16:26:48+08:00 127.0.0.1 GET /reference 200 4.996334ms
+2025/03/21 16:27:34 main.go:73: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:27:34 main.go:105: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:27:34 main.go:132: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025/03/21 16:28:16 main.go:85: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:28:16 main.go:117: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:28:16 main.go:144: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:28:18+08:00 127.0.0.1 GET /reference 200 3.0305ms
+2025-03-21T16:28:26+08:00 127.0.0.1 GET /dbinfo 200 15.305333ms
+2025-03-21T16:36:43+08:00 127.0.0.1 GET /reference 200 2.429208ms
+2025/03/21 16:36:48 main.go:90: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:36:48 main.go:122: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:36:48 main.go:149: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:36:50+08:00 127.0.0.1 GET /reference 200 4.815375ms
+2025-03-21T16:36:50+08:00 127.0.0.1 GET /reference 200 2.676917ms
+2025/03/21 16:41:03 main.go:90: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:41:03 main.go:122: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:41:03 main.go:149: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:41:03+08:00 127.0.0.1 GET /reference 200 5.505834ms
+2025-03-21T16:41:04+08:00 127.0.0.1 GET /reference 200 1.195041ms
+2025-03-21T16:41:05+08:00 127.0.0.1 GET /reference 200 1.632917ms
+2025-03-21T16:41:06+08:00 127.0.0.1 GET /reference 200 2.761417ms
+2025-03-21T16:41:06+08:00 127.0.0.1 GET /reference 200 2.067125ms
+2025-03-21T16:41:06+08:00 127.0.0.1 GET /reference 200 2.419292ms
+2025-03-21T16:41:24+08:00 127.0.0.1 GET /reference 200 2.517709ms
+2025-03-21T16:41:25+08:00 127.0.0.1 GET /reference 200 3.997709ms
+2025/03/21 16:41:31 main.go:90: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:41:31 main.go:122: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:41:31 main.go:149: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:41:32+08:00 127.0.0.1 GET /reference 200 6.413584ms
+2025/03/21 16:41:49 main.go:90: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:41:49 main.go:122: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:41:49 main.go:149: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:41:50+08:00 127.0.0.1 GET /reference 200 5.800833ms
+2025-03-21T16:42:26+08:00 127.0.0.1 GET /reference 200 2.274291ms
+2025/03/21 16:42:31 main.go:90: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:42:31 main.go:122: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:42:31 main.go:149: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:42:32+08:00 127.0.0.1 GET /reference 200 5.75125ms
+2025/03/21 16:43:15 main.go:90: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:43:15 main.go:122: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:43:15 main.go:149: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:43:16+08:00 127.0.0.1 GET /reference 200 7.066125ms
+2025/03/21 16:44:39 main.go:90: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:44:39 main.go:122: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:44:39 main.go:149: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:44:40+08:00 127.0.0.1 GET /reference 200 5.153667ms
+2025/03/21 16:47:13 main.go:91: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:47:13 main.go:123: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:47:13 main.go:150: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:47:17+08:00 127.0.0.1 GET /reference 200 6.659417ms
+2025/03/21 16:48:19 main.go:91: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:48:19 main.go:123: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:48:19 main.go:150: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:48:21+08:00 127.0.0.1 GET /reference 200 4.839084ms
+2025/03/21 16:49:15 main.go:91: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 16:49:15 main.go:123: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 16:49:15 main.go:150: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T16:49:16+08:00 127.0.0.1 GET /reference 200 5.804042ms
+2025-03-21T16:49:17+08:00 127.0.0.1 GET /reference 200 605µs
+2025/03/21 17:03:48 main.go:90: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 17:03:48 main.go:122: Warning: WhatsApp Business API configuration incomplete. Some features may not work.
+2025/03/21 17:03:48 main.go:149: Starting server on port 1323...
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T17:03:49+08:00 127.0.0.1 GET /reference 200 6.117334ms
+2025/03/21 18:09:09 main.go:94: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 18:09:09 service.go:99: Starting ngrok tunnel...
+2025/03/21 18:09:09 service.go:148: 🚀 ngrok tunnel established: https://promoted-awfully-skylark.ngrok-free.app -> http://localhost:1323
+2025/03/21 18:09:09 main.go:138: Starting server on port 1323...
+2025/03/21 18:09:09 main.go:143: 🚀 ngrok tunnel active: https://promoted-awfully-skylark.ngrok-free.app -> http://localhost:1323
+2025/03/21 18:09:09 main.go:148: 💡 For WhatsApp webhook configuration, use: https://promoted-awfully-skylark.ngrok-free.app/api/webhook
+2025/03/21 18:09:09 main.go:152: 📚 API documentation available at: https://promoted-awfully-skylark.ngrok-free.app/reference
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+2025-03-21T18:09:21+08:00 127.0.0.1 GET /reference 200 4.26975ms
+2025/03/21 18:09:32 main.go:163: Handling health check request
+2025-03-21T18:09:32+08:00 127.0.0.1 GET /health 200 175.667µs
+2025-03-21T18:09:35+08:00 127.0.0.1 GET /dbinfo 200 15.081417ms
+2025-03-21T18:11:17+08:00 127.0.0.1 POST /whatsapp/send 400 224.708µs
+2025/03/21 18:12:50 main.go:94: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 18:12:50 service.go:99: Starting ngrok tunnel...
+2025-03-21T18:14:15+08:00 127.0.0.1 GET /reference 200 5.657458ms
+2025-03-21T18:14:20+08:00 127.0.0.1 GET /reference 200 769.5µs
+2025-03-21T18:14:23+08:00 127.0.0.1 POST /whatsapp/send 400 46µs
+2025-03-21T18:14:27+08:00 127.0.0.1 POST /whatsapp/webhook 500 32.75µs
+2025-03-21T18:14:33+08:00 127.0.0.1 GET /dbinfo 200 19.982125ms
+2025/03/21 18:25:50 main.go:94: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 18:25:50 main.go:131: Starting server on port 1323...
+2025/03/21 18:25:50 service.go:50: NGROK_AUTHTOKEN is required when ENABLE_NGROK is true
+2025/03/21 18:27:22 main.go:94: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 18:27:22 main.go:131: Starting server on port 1323...
+2025/03/21 18:31:31 main.go:94: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 18:31:31 main.go:131: Starting server on port 1323...
+2025/03/21 18:31:31 service.go:60: Ngrok tunnel established at: https://promoted-awfully-skylark.ngrok-free.app
+2025/03/21 18:31:31 main.go:137: 🚀 ngrok tunnel active: https://promoted-awfully-skylark.ngrok-free.app -> http://localhost:1323
+2025/03/21 18:31:31 main.go:141: 📚 API documentation available at: https://promoted-awfully-skylark.ngrok-free.app/reference
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on promoted-awfully-skylark.ngrok-free.app
+2025-03-21T18:31:46+08:00 115.66.152.118 GET / 404 40.75µs
+2025-03-21T18:31:51+08:00 115.66.152.118 GET /reference 200 8.241458ms
+2025-03-21T18:31:52+08:00 115.66.152.118 GET /favicon.ico 404 18.209µs
+2025/03/21 19:57:03 main.go:96: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 19:57:03 main.go:133: Starting server on port 1323...
+2025/03/21 19:57:03 service.go:60: Ngrok tunnel established at: https://promoted-awfully-skylark.ngrok-free.app
+2025/03/21 19:57:03 main.go:139: 🚀 ngrok tunnel active: https://promoted-awfully-skylark.ngrok-free.app -> http://localhost:1323
+2025/03/21 19:57:03 main.go:143: 📚 API documentation available at: https://promoted-awfully-skylark.ngrok-free.app/reference
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on promoted-awfully-skylark.ngrok-free.app
+2025/03/21 19:57:07 main.go:153: Shutting down server...
+2025/03/21 19:57:12 main.go:96: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 19:57:12 main.go:133: Starting server on port 1323...
+2025/03/21 19:57:12 service.go:60: Ngrok tunnel established at: https://promoted-awfully-skylark.ngrok-free.app
+2025/03/21 19:57:12 main.go:139: 🚀 ngrok tunnel active: https://promoted-awfully-skylark.ngrok-free.app -> http://localhost:1323
+2025/03/21 19:57:12 main.go:143: 📚 API documentation available at: https://promoted-awfully-skylark.ngrok-free.app/reference
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on promoted-awfully-skylark.ngrok-free.app
+2025-03-21T19:57:14+08:00 115.66.152.118 GET /reference 200 1.992625ms
+2025-03-21T20:18:51+08:00 2a03:2880:13ff:71:: GET /whatsapp/webhook?hub.mode=subscribe&hub.challenge=268628341&hub.verify_token=QxFQuMkDG5eHH4KatAn1zfUB28nktvePePm6MELYH0BV41oNQ5 200 39.75µs
+2025-03-21T20:25:50+08:00 2a03:2880:10ff:51:: POST /whatsapp/webhook 200 300.208µs
+2025-03-21T20:25:50+08:00 2a03:2880:21ff:5a:: POST /whatsapp/webhook 200 312.75µs
+2025-03-21T20:25:57+08:00 2a03:2880:10ff:12:: POST /whatsapp/webhook 200 348.708µs
+2025-03-21T20:26:12+08:00 2a03:2880:21ff:41:: POST /whatsapp/webhook 200 435.625µs
+2025/03/21 20:30:18 main.go:153: Shutting down server...
+2025/03/21 20:30:53 main.go:96: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 20:30:53 main.go:133: Starting server on port 1323...
+2025/03/21 20:30:53 service.go:60: Ngrok tunnel established at: https://promoted-awfully-skylark.ngrok-free.app
+2025/03/21 20:30:53 main.go:139: 🚀 ngrok tunnel active: https://promoted-awfully-skylark.ngrok-free.app -> http://localhost:1323
+2025/03/21 20:30:53 main.go:143: 📚 API documentation available at: https://promoted-awfully-skylark.ngrok-free.app/reference
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on promoted-awfully-skylark.ngrok-free.app
+2025/03/21 20:32:42 main.go:153: Shutting down server...
+2025/03/21 20:32:45 main.go:96: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 20:32:45 main.go:133: Starting server on port 1323...
+2025/03/21 20:32:45 service.go:60: Ngrok tunnel established at: https://promoted-awfully-skylark.ngrok-free.app
+2025/03/21 20:32:45 main.go:144: 🚀 ngrok tunnel active: https://promoted-awfully-skylark.ngrok-free.app -> http://localhost:1323
+2025/03/21 20:32:45 main.go:148: 📚 API documentation available at: https://promoted-awfully-skylark.ngrok-free.app/reference
+2025/03/21 20:32:45 main.go:150: 🕳️ Tunnel available at http://localhost:4040
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on promoted-awfully-skylark.ngrok-free.app
+2025/03/21 20:35:19 main.go:154: Shutting down server...
+2025/03/21 20:35:23 main.go:96: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 20:35:23 main.go:133: Starting server on port 1323...
+2025/03/21 20:35:24 service.go:60: Ngrok tunnel established at: https://promoted-awfully-skylark.ngrok-free.app
+2025/03/21 20:35:24 main.go:144: 🚀 ngrok tunnel active: https://promoted-awfully-skylark.ngrok-free.app -> http://localhost:1323
+2025/03/21 20:35:24 main.go:148: 📚 API documentation available at: https://promoted-awfully-skylark.ngrok-free.app/reference
+2025/03/21 20:35:24 main.go:150: 🕳️ Tunnel available at http://localhost:4040
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on promoted-awfully-skylark.ngrok-free.app
+2025/03/21 20:39:56 main.go:154: Shutting down server...
+2025/03/21 20:40:00 main.go:96: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 20:40:00 main.go:133: Starting server on port 1323...
+2025/03/21 20:40:00 service.go:60: Ngrok tunnel established at: https://promoted-awfully-skylark.ngrok-free.app
+2025/03/21 20:40:00 main.go:144: 🚀 ngrok tunnel active: https://promoted-awfully-skylark.ngrok-free.app -> http://localhost:1323
+2025/03/21 20:40:00 main.go:148: 📚 API documentation available at: https://promoted-awfully-skylark.ngrok-free.app/reference
+2025/03/21 20:40:00 main.go:150: 🕳️ Tunnel available at http://localhost:4040
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on promoted-awfully-skylark.ngrok-free.app
+2025-03-21T20:42:37+08:00 115.66.152.118 GET / 404 34.625µs
+2025-03-21T20:43:06+08:00 2a03:2880:22ff:4a:: POST /whatsapp/webhook 200 839.375µs
+2025-03-21T21:09:19+08:00 2a03:2880:10ff:51:: POST /whatsapp/webhook 200 162.625µs
+2025/03/21 21:11:50 main.go:154: Shutting down server...
+2025/03/21 21:11:54 main.go:96: Connected to database: PostgreSQL 15.8 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 13.2.0, 64-bit
+2025/03/21 21:11:54 main.go:133: Starting server on port 1323...
+2025/03/21 21:11:54 service.go:60: Ngrok tunnel established at: https://promoted-awfully-skylark.ngrok-free.app
+2025/03/21 21:11:54 main.go:144: 🚀 ngrok tunnel active: https://promoted-awfully-skylark.ngrok-free.app -> http://localhost:1323
+2025/03/21 21:11:54 main.go:148: 📚 API documentation available at: https://promoted-awfully-skylark.ngrok-free.app/reference
+2025/03/21 21:11:54 main.go:150: 🕳️ Tunnel available at http://localhost:4040
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on promoted-awfully-skylark.ngrok-free.app
+2025-03-21T21:52:24+08:00 2a03:2880:10ff:72:: POST /whatsapp/webhook 200 609.834µs
+2025-03-21T21:52:25+08:00 2a03:2880:12ff:5:: POST /whatsapp/webhook 200 173.292µs
+2025-03-21T21:52:25+08:00 2a03:2880:12ff:8:: POST /whatsapp/webhook 200 174.625µs
+2025-03-21T21:52:25+08:00 2a03:2880:10ff:c:: POST /whatsapp/webhook 200 178.25µs
+2025-03-21T21:54:28+08:00 2a03:2880:22ff:8:: POST /whatsapp/webhook 200 84.75µs
+2025-03-21T22:01:51+08:00 2a03:2880:22ff:71:: POST /whatsapp/webhook 200 33.916µs
+2025-03-21T22:04:01+08:00 2a03:2880:22ff:5:: POST /whatsapp/webhook 200 177.291µs
+2025-03-21T22:04:02+08:00 2a03:2880:12ff:72:: POST /whatsapp/webhook 200 39.084µs
+2025-03-21T22:04:02+08:00 2a03:2880:21ff:4b:: POST /whatsapp/webhook 200 33.875µs
+2025-03-21T22:04:02+08:00 2a03:2880:22ff:72:: POST /whatsapp/webhook 200 56.125µs
+2025-03-21T22:04:02+08:00 2a03:2880:10ff:5:: POST /whatsapp/webhook 200 26.917µs
+2025-03-21T22:04:03+08:00 2a03:2880:10ff:73:: POST /whatsapp/webhook 200 95.583µs
+2025-03-21T22:04:03+08:00 2a03:2880:22ff:4a:: POST /whatsapp/webhook 200 240.167µs
+2025-03-21T22:05:50+08:00 2a03:2880:10ff:d:: POST /whatsapp/webhook 200 59.208µs
+2025-03-21T22:05:50+08:00 2a03:2880:22ff:71:: POST /whatsapp/webhook 200 228.708µs
+2025-03-21T22:06:19+08:00 2a03:2880:10ff:4:: POST /whatsapp/webhook 200 193.667µs
+2025-03-21T22:06:20+08:00 2a03:2880:21ff:5d:: POST /whatsapp/webhook 200 212.25µs
+2025-03-21T22:07:11+08:00 2a03:2880:21ff:5e:: POST /whatsapp/webhook 200 128.125µs
+2025-03-21T22:07:43+08:00 2a03:2880:22ff:49:: POST /whatsapp/webhook 200 183.125µs
+2025-03-21T22:08:13+08:00 2a03:2880:10ff:2:: POST /whatsapp/webhook 200 119.75µs
+2025-03-21T22:08:16+08:00 2a03:2880:21ff:42:: POST /whatsapp/webhook 200 169.5µs
+2025-03-21T22:08:16+08:00 2a03:2880:22ff:5:: POST /whatsapp/webhook 200 210.375µs
+2025-03-21T22:09:33+08:00 2a03:2880:10ff:c:: POST /whatsapp/webhook 200 96.833µs
+2025-03-21T22:09:34+08:00 2a03:2880:10ff:2:: POST /whatsapp/webhook 200 41.375µs
+2025-03-21T22:09:34+08:00 2a03:2880:21ff:5b:: POST /whatsapp/webhook 200 38.666µs
+2025-03-21T22:09:34+08:00 2a03:2880:12ff:74:: POST /whatsapp/webhook 200 150.5µs
+2025-03-21T22:09:40+08:00 2a03:2880:21ff:: POST /whatsapp/webhook 200 138.708µs
+2025-03-21T22:09:40+08:00 2a03:2880:21ff:73:: POST /whatsapp/webhook 200 138.75µs
+2025-03-21T22:10:56+08:00 2a03:2880:10ff:2:: POST /whatsapp/webhook 200 50.209µs
+2025-03-21T22:10:56+08:00 2a03:2880:10ff:6:: POST /whatsapp/webhook 200 29.75µs
+2025-03-21T22:11:28+08:00 2a03:2880:12ff:: POST /whatsapp/webhook 200 74.333µs
+2025-03-23T16:35:30+08:00 115.66.152.118 GET /reference 200 14.553166ms
+2025-03-23T16:35:31+08:00 115.66.152.118 GET /favicon.ico 404 24.75µs
+2025-03-25T11:26:42+08:00 115.66.152.118 POST /call 404 128.875µs
+2025-03-25T11:26:51+08:00 115.66.152.118 POST /call 404 80.917µs
+2025-03-25T11:26:52+08:00 115.66.152.118 POST /call 404 33.583µs
+2025-03-25T11:26:53+08:00 115.66.152.118 POST /call 404 29.458µs
+2025-03-25T11:27:13+08:00 115.66.152.118 POST /call 404 15.209µs
+2025-03-25T11:38:20+08:00 44.243.94.89 POST /internal/vapi/eval 404 96.167µs
+2025/04/04 10:57:05 main.go:154: Shutting down server...

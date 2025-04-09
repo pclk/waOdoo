@@ -1,0 +1,1 @@
+been|could|should|would|what|were|when|which|and|but|like|don't|with|will|from|for|of|use|just|not|really|they|said|have|are|even|its|question|these|make|can't|people|which|there|their|your|good|object|other|only|year|some|come|now|get|into|all|time|see|think|then|than|take|look|back|after|difficult|first|world|work|because|such|give|over|most|also|before|find|to|be

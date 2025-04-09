@@ -1,0 +1,132 @@
+basePath: /
+definitions:
+  whatsapp.MessageResponse:
+    properties:
+      id:
+        type: string
+      message:
+        type: string
+      success:
+        type: boolean
+    type: object
+  whatsapp.OutgoingMessage:
+    properties:
+      media_url:
+        type: string
+      message:
+        example: hi
+        type: string
+      to:
+        example: "6598232744"
+        type: string
+    type: object
+host: localhost:1323
+info:
+  contact:
+    email: support@swagger.io
+    name: API Support
+    url: http://www.swagger.io/support
+  description: API server with WhatsApp Business API integration, PostgreSQL database,
+    and Scalar docs.
+  termsOfService: http://swagger.io/terms/
+  title: waOdoo API
+  version: "1.0"
+paths:
+  /dbinfo:
+    get:
+      description: Returns version and connection status information about the database
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Database information endpoint
+      tags:
+      - health
+  /health:
+    get:
+      description: returns the health status of the API
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Health check endpoint
+      tags:
+      - health
+  /whatsapp/send:
+    post:
+      description: Sends a WhatsApp message to the specified number
+      parameters:
+      - description: Message details
+        in: body
+        name: message
+        required: true
+        schema:
+          $ref: '#/definitions/whatsapp.OutgoingMessage'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/whatsapp.MessageResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/whatsapp.MessageResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/whatsapp.MessageResponse'
+      summary: Send a WhatsApp message
+      tags:
+      - whatsapp
+  /whatsapp/webhook:
+    get:
+      description: Verifies the WhatsApp webhook with Meta's verification challenge
+      responses:
+        "200":
+          description: Challenge response
+          schema:
+            type: string
+        "403":
+          description: Verification failed
+          schema:
+            type: string
+      summary: Verify WhatsApp webhook
+      tags:
+      - whatsapp
+    post:
+      description: Process incoming WhatsApp webhook notifications
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/whatsapp.MessageResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/whatsapp.MessageResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/whatsapp.MessageResponse'
+      summary: Receive a WhatsApp webhook
+      tags:
+      - whatsapp
+securityDefinitions:
+  BearerAuth:
+    description: JWT Authorization header using the Bearer scheme
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
